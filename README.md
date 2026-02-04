@@ -43,6 +43,9 @@ The project is written in **C++ (Arduino Framework)**.
 4.  Replace the code inside `if (digitalRead(BTN_X) == LOW)` with your custom `Keyboard.print()` commands.
 5.  Upload to Pico.
 
+   ENJOY 
+   CONTACT :- atheeqceh100@gmail.com
+
 
 
 ---
