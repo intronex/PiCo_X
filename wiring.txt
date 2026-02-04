@@ -1,0 +1,43 @@
+===================================================================
+ PICO-X HARDWARE CONNECTION DIAGRAM
+===================================================================
+
+[ MICROCONTROLLER: RASPBERRY PI PICO (RP2040) ]
+
+---------------------------------------------------
+1. OLED DISPLAY (SSD1306 I2C) CONNECTIONS
+---------------------------------------------------
+The OLED display is powered by 3.3V and uses I2C communication.
+
+| OLED Pin | Pico Pin (GPIO)    | Physical Pin |
+| :------- | :----------------- | :----------- |
+| VCC      | 3V3 (OUT)          | Pin 36       |
+| GND      | GND                | Pin 38       |
+| SDA      | GP28               | Pin 34       |
+| SCL      | GP29               | Pin 35       |
+
+---------------------------------------------------
+2. BUTTON MATRIX CONNECTIONS (Active Low)
+---------------------------------------------------
+All buttons are configured with internal Pull-Up resistors.
+Connection Logic: One leg to GPIO, Other leg to Common Ground.
+
+| Button Name | Pico Pin (GPIO) | Function (Default) |
+| :---------- | :-------------- | :----------------- |
+| Button 1    | GP1             | Payload / Macro 1  |
+| Button 2    | GP2             | Payload / Macro 2  |
+| Button 3    | GP3             | Payload / Macro 3  |
+| Button 4    | GP4             | Payload / Macro 4  |
+| Button 5    | GP5             | Payload / Macro 5  |
+| Button 6    | GP6             | Payload / Macro 6  |
+| Button 7    | GP7             | Payload / Macro 7  |
+| Button 8    | GP8             | Payload / Macro 8  |
+| Button 9    | GP9             | Payload / Macro 9  |
+| Button 10   | GP10            | Payload / Macro 10 |
+
+---------------------------------------------------
+3. NOTES
+---------------------------------------------------
+* Power Source: Connect via Micro-USB cable to PC.
+* Logic Voltage: 3.3V (Do not use 5V logic on GPIOs).
+* Display Address: 0x3C (Default for most SSD1306 modules).
