@@ -1,5 +1,5 @@
 # Pico-X: OLED Macro Keypad & Automation Tool
-<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/41884b7e-d5dc-4d5c-81d7-d98923de544e" />
+<img width="758" height="700" alt="image" src="https://github.com/user-attachments/assets/41884b7e-d5dc-4d5c-81d7-d98923de544e" />
 
 
 ## 📖 Introduction
