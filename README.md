@@ -41,9 +41,9 @@ The project is written in **C++ (Arduino Framework)**.
 2.  Open the `.ino` file in Arduino IDE.
 3.  Navigate to the `loop()` function.
 4.  Replace the code inside `if (digitalRead(BTN_X) == LOW)` with your custom `Keyboard.print()` commands.
-5.  Upload to Pico.
+5.  Upload to Pico.      ENJOY...
 
-   ENJOY 
+   
    CONTACT :- atheeqceh100@gmail.com
 
 
