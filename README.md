@@ -1,5 +1,5 @@
 # Pico-X: OLED Macro Keypad & Automation Tool
-<img width="735" height="936" alt="image" src="https://github.com/user-attachments/assets/41884b7e-d5dc-4d5c-81d7-d98923de544e" />
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/41884b7e-d5dc-4d5c-81d7-d98923de544e" />
 
 
 ## 📖 Introduction
@@ -43,7 +43,6 @@ The project is written in **C++ (Arduino Framework)**.
 4.  Replace the code inside `if (digitalRead(BTN_X) == LOW)` with your custom `Keyboard.print()` commands.
 5.  Upload to Pico.
 
-## 📸 Demo
 
 
 ---
